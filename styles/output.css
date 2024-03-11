@@ -975,6 +975,10 @@ video {
   width: 100%;
 }
 
+.w-14 {
+  width: 3.5rem;
+}
+
 .max-w-1 {
   max-width: 0.25rem;
 }
@@ -2259,10 +2263,6 @@ video {
   padding-top: 1rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -3082,11 +3082,6 @@ video {
     padding-right: 3rem;
   }
 
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .md\:text-left {
     text-align: left;
   }
@@ -3103,6 +3098,11 @@ video {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
